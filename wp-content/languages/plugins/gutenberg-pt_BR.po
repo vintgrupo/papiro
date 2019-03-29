@@ -1,0 +1,212 @@
+# Translation of Plugins - Gutenberg - Stable (latest release) in Portuguese (Brazil)
+# This file is distributed under the same license as the Plugins - Gutenberg - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2018-01-02 18:16:13+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: pt_BR\n"
+"Project-Id-Version: Plugins - Gutenberg - Stable (latest release)\n"
+
+#: lib/client-assets.php:510
+msgid "Post not found."
+msgstr "Post não encontrado."
+
+#: lib/client-assets.php:519
+msgid "Unauthorized post type."
+msgstr "Tipo de post não autorizado."
+
+#: lib/client-assets.php:515
+msgid "Unrecognized post type."
+msgstr "Tipo de post não reconhecido."
+
+#. Author of the plugin/theme
+msgid "Gutenberg Team"
+msgstr "Equipe Gutenberg"
+
+#. Plugin Name of the plugin/theme
+msgid "Gutenberg"
+msgstr "Gutenberg"
+
+#: gutenberg.php:63 gutenberg.php:64
+msgid "Demo"
+msgstr "Demo"
+
+#. translators: %s: duration
+#: lib/client-assets.php:110
+msgid "%s ago"
+msgstr "%s atrás"
+
+#. Plugin URI of the plugin/theme
+msgid "https://github.com/WordPress/gutenberg"
+msgstr "https://github.com/WordPress/gutenberg"
+
+#: lib/client-assets.php:114
+msgid "g:i a"
+msgstr "g:i a"
+
+#: lib/class-wp-block-type-registry.php:60
+msgid "Block type names must be strings."
+msgstr "Nomes de blocos precisam ser strings."
+
+#: lib/client-assets.php:116
+msgid "F j, Y g:i a"
+msgstr "j/F/Y g:i a"
+
+#: lib/client-assets.php:115
+msgid "F j, Y"
+msgstr "j/F/Y"
+
+#. translators: %s: duration
+#: lib/client-assets.php:108
+msgid "%s from now"
+msgstr "Daqui a %s"
+
+#: lib/register.php:189
+msgid "Author"
+msgstr "Autor"
+
+#: lib/register.php:185
+msgid "Slug"
+msgstr "Slug"
+
+#: lib/register.php:180
+msgid "Comments"
+msgstr "Comentários"
+
+#: lib/register.php:167
+msgid "Discussion"
+msgstr "Discussão"
+
+#: lib/register.php:113
+msgctxt "post format"
+msgid "Format"
+msgstr "Formato"
+
+#: lib/register.php:109
+msgid "Publish"
+msgstr "Publicar"
+
+#: lib/register.php:102
+msgid "Save"
+msgstr "Salvar"
+
+#: lib/register.php:95
+msgid "Revisions"
+msgstr "Revisões"
+
+#. translators: 1: block name
+#: lib/class-wp-block-type-registry.php:111
+msgid "Block type \"%s\" is not registered."
+msgstr "Tipo de bloco \"%s\" não está registrado."
+
+#: gutenberg.php:77
+msgid "Documentation"
+msgstr "Documentação"
+
+#: gutenberg.php:71
+msgid "Feedback"
+msgstr "Feedback"
+
+#: lib/class-wp-block-type-registry.php:73
+msgid "Block type names must contain a namespace prefix. Example: my-plugin/my-custom-block-type"
+msgstr "Os nomes dos blocos precisam ter um prefixo namespace. Por exemplo: meu-plugin/meu-bloco-personalizado"
+
+#: lib/class-wp-rest-reusable-blocks-controller.php:144
+msgid "No reusable block with that ID found."
+msgstr "Nenhum bloco reutilizável com essa ID encontrada."
+
+#. translators: %s is the name of the plugin that generated this meta box.
+#: lib/meta-box-partial-page.php:303
+msgid "Gutenberg incompatible meta box, from the \"%s\" plugin."
+msgstr "Meta box do plugin %s incompatível com Gutenberg"
+
+#: lib/register.php:151
+msgid "Custom Fields"
+msgstr "Campos Personalizados"
+
+#: lib/register.php:147
+msgid "Send Trackbacks"
+msgstr "Enviar Trackbacks"
+
+#: lib/meta-box-partial-page.php:71
+msgid "The `meta_box` parameter should be one of \"side\", \"normal\", or \"advanced\"."
+msgstr "O parâmetro `meta_box` deve ser \"lateral\", \"normal\", ou \"avançado\"."
+
+#: lib/class-wp-block-type-registry.php:66
+msgid "Block type names must not contain uppercase characters."
+msgstr "Nomes de tipos de blocos não devem conter letras maiúsculas."
+
+#: lib/class-wp-rest-reusable-blocks-controller.php:230
+msgid "Invalid reusable block content."
+msgstr "Conteúdo de bloco reutilizável inválido."
+
+#: lib/class-wp-rest-reusable-blocks-controller.php:221
+msgid "Invalid reusable block name."
+msgstr "Nome do bloco reutilizável inválido."
+
+#: lib/class-wp-rest-reusable-blocks-controller.php:298
+msgid "The block's HTML content."
+msgstr "O conteúdo HTML do bloco."
+
+#: lib/class-wp-rest-reusable-blocks-controller.php:292
+msgid "Name that identifies this reusable block"
+msgstr "Nome que identifica este bloco reutilizável"
+
+#: lib/class-wp-rest-reusable-blocks-controller.php:163
+msgid "Sorry, you are not allowed to edit reusable blocks as this user."
+msgstr "Desculpe, você não tem permissão para editar blocos reutilizáveis com esse usuário."
+
+#: blocks/library/categories/index.php:35
+msgid "Select Category"
+msgstr "Selecionar categoria"
+
+#: blocks/library/latest-posts/index.php:28
+msgid "(Untitled)"
+msgstr "(Sem título)"
+
+#: gutenberg.php:363 gutenberg.php:516
+msgid "Classic Editor"
+msgstr "Editor de texto clássico"
+
+#. translators: %s: post title
+#: gutenberg.php:360
+msgid "Edit &#8220;%s&#8221; in the classic editor"
+msgstr "Editar &#8220;%s&#8221; com o editor clássico"
+
+#. translators: 1: block name
+#: lib/class-wp-block-type-registry.php:80
+msgid "Block type \"%s\" is already registered."
+msgstr "Tipo de bloco \"%s\" já está registrado."
+
+#: gutenberg.php:92
+msgid "Gutenberg requires WordPress 4.8 or later to function properly. Please upgrade WordPress before activating Gutenberg."
+msgstr "Gutenberg requer WordPress 4.8 ou superior para funcionar corretamente. Atualize o WordPress antes de ativar o Gutenberg."
+
+#. Description of the plugin/theme
+msgid "Printing since 1440. This is the development plugin for the new block editor in core. <strong>Meant for development, do not run on real sites.</strong>"
+msgstr "Este é o plugin de desenvolvimento para o novo editor de blocos nos arquivos básicos. <strong>Apenas para desenvolvedores, não instale em sites em produção.</strong>"
+
+#: lib/class-wp-rest-reusable-blocks-controller.php:80
+#: lib/class-wp-rest-reusable-blocks-controller.php:123
+msgid "Sorry, you are not allowed to read reusable blocks as this user."
+msgstr "Você não tem permissão para ler blocos reutilizáveis com esse usuário."
+
+#: lib/register.php:143
+msgid "Excerpt"
+msgstr "Resumo"
+
+#: lib/register.php:106
+msgid "Metadata"
+msgstr "Metadados"
+
+#: lib/class-wp-rest-reusable-blocks-controller.php:286
+msgid "ID that identifies this reusable block."
+msgstr "UUID que identifica esse bloqueio reutilizável."
+
+#: gutenberg.php:514
+msgid "Toggle editor selection menu"
+msgstr "Alternar menu de seleção do editor"
